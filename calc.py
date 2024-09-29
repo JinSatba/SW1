@@ -11,6 +11,6 @@ if __name__ == "__main__":
     y = int(input("두 번째 숫자를 입력하세요: "))
 
     print(f"숫자의 합: {add(x, y)}")
-    print(f"{x}와 {y}의 차는: {subtract(x, y)}")
+    print(f"숫자의 차: {subtract(x, y)}")
     print(f"{x}와 {y}의 곱은: {multiply(x, y)}")
     print(f"{x}를 {y}로 나눈 결과는: {divide(x, y)}")
